@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Native-Speaker CI
 
 on: [push]
 
@@ -22,3 +22,5 @@ jobs:
     - run: npm test
       env:
         CI: true
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1

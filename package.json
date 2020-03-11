@@ -14,7 +14,7 @@
     "url": "git+https://github.com/priyanshsaxena/native-speaker.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Priyansh Saxena",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/priyanshsaxena/native-speaker/issues"
@@ -32,6 +32,7 @@
     "@babel/preset-env": "^7.8.6",
     "@babel/preset-react": "^7.8.3",
     "babel-jest": "^25.1.0",
+    "codecov": "^3.6.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jest": "^25.1.0"
